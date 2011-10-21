@@ -1,0 +1,11 @@
+import feature : extend-feature compose ;
+
+extend-feature variant : coverage ;
+
+compose <variant>coverage
+    : <cflags>-p <cxxflags>-p <linkflags>-p <cflags>-fprofile-arcs
+      <cxxflags>-fprofile-arcs <linkflags>-fprofile-arcs
+      <cflags>-ftest-coverage <cxxflags>-ftest-coverage
+      <optimization>off
+    ;
+
