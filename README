@@ -1,1 +1,3 @@
 BJam <variant> feature extended with coverage one.
+Usage:
+BOOST_BUILD_PATH="/usr/share/boost-build-1_46:/usr/share/reinvented-wheels" bjam-1_46 coverage
